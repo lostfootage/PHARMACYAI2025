@@ -33,7 +33,7 @@ async def search_web(query: str) -> str:
     params = {
         "api_key": SERP_API_KEY,
         "q": query,
-        "location": "Australia",
+        "location": "TEXAS",
         "hl": "en"
     }
     async with aiohttp.ClientSession() as session:
